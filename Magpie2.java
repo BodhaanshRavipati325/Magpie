@@ -45,9 +45,17 @@ public class Magpie2 {
         }
         else if (statement.indexOf("Mr. Hargis") >= 0 || statement.indexOf("Mr Hargis") >= 0 || statement.indexOf("Hargis") >= 0) {
             response = "What a great teacher";
-        }
-		else if (statement.indexOf("no") >= 0)
-		{
+		}
+		else if (statement.indexOf("cheese") >= 0 ) {
+			response = "So smelly!";
+		}
+		else if (statement.indexOf("sunflower") >= 0 || statement.indexOf("Sunflower") >= 0) {
+			response = "My friend loves sunflowers!";
+		}
+		else if (statement.indexOf("chicken") >= 0) {
+			response = "FRIED CHICKENNNNNNN";
+		}
+		else if (statement.indexOf("no") >= 0) {
 			response = "Why so negative?";
 		}
 		else
